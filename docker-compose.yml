@@ -2,7 +2,7 @@ version: '3'
 
 services:
   textgen:
-    image: saladtechnologies/text-generation-webui:pygmalion-2-13b-awq
+    image: saladtechnologies/text-generation-webui:pygmalion-2-13b-gguf-q5-k-m
     deploy:
       resources:
         reservations:
